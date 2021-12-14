@@ -1,0 +1,16 @@
+.App{
+  align-content: center;
+  margin: auto;
+  max-width: 360px;
+  margin-top: 50px;
+
+}
+img{
+  border-radius: 20%;
+}
+h1{
+  color: rgb(63, 160, 224);
+}
+label{
+  color: rgb(50, 141, 202);
+}
