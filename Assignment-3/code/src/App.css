@@ -1,0 +1,87 @@
+.site-container{
+    max-width: 1024px;
+    height: auto;
+    justify-content: center;
+    align-content: center;
+}
+header{
+    width: auto;
+    height: 50px;
+    padding: 20px;
+    background-color: azure;
+}
+.arrow{
+    float: left;
+    font-size: 30px;
+}
+
+.name{
+    text-align: center;
+}
+.name strong{
+    display: block;
+}
+.button{
+    padding: 10px;
+    color: white;
+    background-color: black;
+    align-content: center;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    text-align: center;
+    margin-right: 10px;
+}
+.customer-info{
+    padding: 20px;
+    border: 1px solid #000000;
+    width: auto;
+    height: 80px;
+}
+.customer-info div {
+    padding-bottom:10px;
+}
+.order-info{
+    padding: 20px;
+    background-color: rgb(216, 211, 203);
+    margin-top: 20px;
+}
+.f1{
+    float: left;
+}
+.f2{
+    text-align: center;
+}
+.order-info .f3{
+    position: absolute;
+    right: 1rem;
+    bottom: 26.5rem;
+}
+.order-info strong{
+    display: block;
+}
+.product-list{
+    max-height: 250px;
+    margin-top: 30px;
+    border: 1px sold black;
+    background-color: rgb(165, 156, 152);
+    display: flex;
+}
+.product-list input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+    margin-right: 20px;
+}
+.product-list div{
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    font-size: 40px;
+    position: absolute;
+    right: 1rem;
+    top: 22.5rem;
+}
