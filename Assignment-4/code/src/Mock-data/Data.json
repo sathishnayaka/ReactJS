@@ -1,0 +1,27 @@
+{
+    "user":
+            [
+            
+            {"name":"Siva",
+            "location":"Bengaluru",
+            "likes":64,
+            "description": "Kick start your career",
+            "PostImage": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1407814337l/22309639.jpg",
+            "date": "10/12/2021"
+            },
+            {"name":"Neeraj",
+            "location":"Pune",
+            "likes":30,
+            "description": "Lion's roar",
+            "PostImage": "https://image.shutterstock.com/image-photo/lion-roaring-zoo-260nw-1199558833.jpg",
+            "date": "10/25/2021" 
+            },
+            {"name":"Rahul",
+            "location":"Hyderabad",
+            "likes":30,
+            "description": "The beauty of the nature",
+            "PostImage": "https://image.shutterstock.com/image-photo/sunset-coast-lake-nature-landscape-600w-1960131820.jpg",
+            "date": "10/17/1995" 
+            }
+            ]
+}
