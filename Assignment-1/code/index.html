@@ -14,10 +14,17 @@
     <div id="root"></div>
     <script type="text/babel">
 //React Code here
-const division1=React.createElement('div',{class:'div1'},null)
-const division2=React.createElement('div',{class:'div2'},null)
-var containerOne=React.createElement('div',{class:'one'},[division1,division2])
- ReactDOM.render(containerOne,document.getElementById('root'));
+var main_cantainer = React.createElement('div', { className: "parentdevison" },
+      React.createElement('div', { className: "firstBlock" },
+        React.createElement('div', { className: 'first' }),
+        React.createElement('div', { className: 'second' })),
+      React.createElement('div', { className: "secondBlock" }),
+      React.createElement('div', { className: "thirdBlock" },
+        React.createElement('div', { className: "tfirst" }),
+        React.createElement('div', { className: "tsecond" }),
+        React.createElement('div', { className: "tthird" })),
+      null, null);
+ ReactDOM.render(main_cantainer,document.getElementById('root'));
 
 
 </script>
